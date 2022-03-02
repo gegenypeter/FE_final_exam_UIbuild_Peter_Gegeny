@@ -58,10 +58,11 @@ const bookElement = (id, title, sub, text) => {
             <h1 id='bookTitle'>${title}</h1>
             <p id='bookSub'>${sub}</p>
             <p id='bookText'>${text}</p>
-            <div>
-                <button>read more &#8594</button>
-            </div>
-           
+            <button>read more
+                <span id:'arrow' class="material-icons">
+                arrow_forward
+                </span>
+            </button>
         </div>
     `
 }
