@@ -9,6 +9,7 @@ body {
     background-color: #f8f7f3;
 }
 #allBooksContainer {
+    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
